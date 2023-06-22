@@ -380,7 +380,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae02d9f5268868e44b92c3d6a32d08cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  amount: 1
   onHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 246054311}
