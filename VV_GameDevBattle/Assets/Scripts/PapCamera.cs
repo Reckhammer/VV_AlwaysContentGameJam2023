@@ -7,14 +7,33 @@ public class PapCamera : MonoBehaviour
 {
     public float delay = 1f;
     public UnityEvent onTakePicture;
+    private Transform target;
+
+    private void Update()
+    {
+        if (target != null)
+        {
+            transform.LookAt(target.position);
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             StartCoroutine(TakePicture(other.transform));
+            target = other.transform;
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        { 
+            target = null;
+        }
+    }
+
 
     private IEnumerator TakePicture(Transform subject)
     {
