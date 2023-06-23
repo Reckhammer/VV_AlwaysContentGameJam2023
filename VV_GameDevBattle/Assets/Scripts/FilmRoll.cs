@@ -21,5 +21,6 @@ public class FilmRoll : MonoBehaviour
         camera.Render();
         images[currentTexture].texture = textures[currentTexture];
         currentTexture = (currentTexture + 1) % images.Count;
+        camera.targetTexture = null;
     }
 }
