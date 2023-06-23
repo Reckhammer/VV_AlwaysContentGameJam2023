@@ -19,4 +19,15 @@ public class EndScreenUI : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void SetWinScreen()
+    {
+        headerField.SetText("Paparazi Popped!!!");
+    }
+
+    public void SetLoseScreen()
+    {
+        headerField.text = "You've been Exposed!!!";
+        
+    }
 }

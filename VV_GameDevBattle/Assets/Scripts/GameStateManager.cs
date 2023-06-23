@@ -7,7 +7,7 @@ public class GameStateManager : MonoBehaviour
 {
     public static GameStateManager instance;
 
-    public GameObject endScreen;
+    public EndScreenUI endScreen;
     public UnityEvent onFinished;
     public Health Player;
 
@@ -25,12 +25,14 @@ public class GameStateManager : MonoBehaviour
     public void ShowWinScreen()
     {
         Debug.Log("Player has reached Destination. Show the Win Screen");
-        endScreen.SetActive(true);
+        endScreen.SetWinScreen();
+        endScreen.gameObject.SetActive(true);
     }
 
     public void ShowLoseScreen()
     {
-        Debug.Log("Player has died. Show the LoseScreen");
-        endScreen.SetActive(true);
+        Debug.Log("Player has died. Show the Lose Screen");
+        endScreen.SetLoseScreen();
+        endScreen.gameObject.SetActive(true);
     }
 }
