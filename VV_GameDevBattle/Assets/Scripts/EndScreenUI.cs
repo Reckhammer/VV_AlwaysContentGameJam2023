@@ -8,7 +8,8 @@ using TMPro;
 public class EndScreenUI : MonoBehaviour
 {
     public TextMeshProUGUI headerField;
-    public Image EndConditionImage;
+    public GameObject LoseImage;
+    public GameObject WinImage;
 
     public void Quit()
     {
@@ -23,11 +24,12 @@ public class EndScreenUI : MonoBehaviour
     public void SetWinScreen()
     {
         headerField.SetText("Paparazi Popped!!!");
+        WinImage.SetActive(true);
     }
 
     public void SetLoseScreen()
     {
         headerField.text = "You've been Exposed!!!";
-        
+        LoseImage.SetActive(true);
     }
 }
