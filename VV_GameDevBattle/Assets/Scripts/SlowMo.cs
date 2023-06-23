@@ -7,20 +7,16 @@ public class SlowMo : MonoBehaviour
 {
     public float duration = 1f;
     public float factor = 1f;
-    public void OnTriggerEnter(Collider other)
+    public void OnHit()
     {
-        if (other.CompareTag("Player"))
-        {
-            StartCoroutine(Activate(other.transform));
-        }
+        StartCoroutine(Activate());
     }
 
-    public IEnumerator Activate(Transform subject)
+    public IEnumerator Activate()
     {
-        var speed = subject.GetComponent<NavMeshAgent>().speed;
-        subject.GetComponent<NavMeshAgent>().speed = speed * factor;
+        Time.timeScale *= factor;
         yield return new WaitForSeconds(duration);
-        subject.GetComponent<NavMeshAgent>().speed = speed;
+        Time.timeScale /= factor;
         yield return null;
     }
 }

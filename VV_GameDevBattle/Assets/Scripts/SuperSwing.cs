@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class SuperSwing : MonoBehaviour
 {
+    public Transform target;
     public float duration = 1f;
-    public void OnTriggerEnter(Collider other)
+    public void OnHit()
     {
-        if (other.CompareTag("Player"))
-        {
-            StartCoroutine(Activate(other.transform));
-        }
+        StartCoroutine(Activate(target));
     }
 
     public IEnumerator Activate(Transform subject)
