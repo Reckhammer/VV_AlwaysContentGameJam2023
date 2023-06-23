@@ -4245,7 +4245,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 207788847}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4253,6 +4299,12 @@ PrefabInstance:
 --- !u!4 &207788846 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 207788845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &207788847 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 207788845}
   m_PrefabAsset: {fileID: 0}
@@ -5839,7 +5891,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 280815617}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5847,6 +5945,12 @@ PrefabInstance:
 --- !u!4 &280815616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 280815615}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &280815617 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 280815615}
   m_PrefabAsset: {fileID: 0}
@@ -9360,7 +9464,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 480261997}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9368,6 +9518,12 @@ PrefabInstance:
 --- !u!4 &480261996 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 480261995}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &480261997 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 480261995}
   m_PrefabAsset: {fileID: 0}
@@ -9803,7 +9959,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 509690319}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9811,6 +10013,12 @@ PrefabInstance:
 --- !u!4 &509690318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 509690317}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &509690319 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 509690317}
   m_PrefabAsset: {fileID: 0}
@@ -11122,7 +11330,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 566637331}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -11130,6 +11384,12 @@ PrefabInstance:
 --- !u!4 &566637330 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 566637329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &566637331 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 566637329}
   m_PrefabAsset: {fileID: 0}
@@ -12587,7 +12847,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 666806081}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -12595,6 +12901,12 @@ PrefabInstance:
 --- !u!4 &666806080 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 666806079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &666806081 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 666806079}
   m_PrefabAsset: {fileID: 0}
@@ -13086,7 +13398,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 685970343}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -13094,6 +13452,12 @@ PrefabInstance:
 --- !u!4 &685970342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 685970341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &685970343 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 685970341}
   m_PrefabAsset: {fileID: 0}
@@ -16320,7 +16684,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 919800147}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -16328,6 +16738,12 @@ PrefabInstance:
 --- !u!4 &919800146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 919800145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &919800147 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 919800145}
   m_PrefabAsset: {fileID: 0}
@@ -17935,7 +18351,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1053946703}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -17943,6 +18405,12 @@ PrefabInstance:
 --- !u!4 &1053946702 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1053946701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1053946703 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1053946701}
   m_PrefabAsset: {fileID: 0}
@@ -18891,7 +19359,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1120247436}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -18899,6 +19413,12 @@ PrefabInstance:
 --- !u!4 &1120247435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1120247434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1120247436 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1120247434}
   m_PrefabAsset: {fileID: 0}
@@ -19799,7 +20319,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1188318409}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -19807,6 +20373,12 @@ PrefabInstance:
 --- !u!4 &1188318408 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1188318407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1188318409 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1188318407}
   m_PrefabAsset: {fileID: 0}
@@ -20125,6 +20697,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204952960}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1208683027 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2809478490382505017, guid: 502b1ba131b5ce44ca857f59d01b42ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 1980791442}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3903b9b75b7375448eb4e9e48014812, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1216850730
 GameObject:
   m_ObjectHideFlags: 0
@@ -21665,7 +22249,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1311855221}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -21673,6 +22303,12 @@ PrefabInstance:
 --- !u!4 &1311855220 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1311855219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1311855221 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1311855219}
   m_PrefabAsset: {fileID: 0}
@@ -21785,7 +22421,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1318596767}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -21793,6 +22475,12 @@ PrefabInstance:
 --- !u!4 &1318596766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1318596765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1318596767 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1318596765}
   m_PrefabAsset: {fileID: 0}
@@ -24785,7 +25473,7 @@ Transform:
   - {fileID: 1393247989}
   - {fileID: 871402656}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1534998274
 GameObject:
@@ -24895,7 +25583,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1535221931}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -24903,6 +25637,12 @@ PrefabInstance:
 --- !u!4 &1535221930 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1535221929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1535221931 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1535221929}
   m_PrefabAsset: {fileID: 0}
@@ -25184,7 +25924,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1569515821}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -25192,6 +25978,12 @@ PrefabInstance:
 --- !u!4 &1569515820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1569515819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1569515821 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1569515819}
   m_PrefabAsset: {fileID: 0}
@@ -25261,7 +26053,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1580484310
 GameObject:
@@ -25420,7 +26212,7 @@ Transform:
   - {fileID: 1535221930}
   - {fileID: 480261996}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590891070
 GameObject:
@@ -25595,7 +26387,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1598288232}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -25603,6 +26441,12 @@ PrefabInstance:
 --- !u!4 &1598288231 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1598288230}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1598288232 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1598288230}
   m_PrefabAsset: {fileID: 0}
@@ -25989,7 +26833,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1633593948}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -25997,6 +26887,12 @@ PrefabInstance:
 --- !u!4 &1633593947 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1633593946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1633593948 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1633593946}
   m_PrefabAsset: {fileID: 0}
@@ -27781,7 +28677,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1737636167}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -27789,6 +28731,12 @@ PrefabInstance:
 --- !u!4 &1737636166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1737636165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1737636167 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1737636165}
   m_PrefabAsset: {fileID: 0}
@@ -28360,7 +29308,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1777481443}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -28368,6 +29362,12 @@ PrefabInstance:
 --- !u!4 &1777481442 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1777481441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1777481443 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1777481441}
   m_PrefabAsset: {fileID: 0}
@@ -28859,7 +29859,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1815361581}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -28867,6 +29913,12 @@ PrefabInstance:
 --- !u!4 &1815361580 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1815361579}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1815361581 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1815361579}
   m_PrefabAsset: {fileID: 0}
@@ -30784,7 +31836,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1944678878}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -30792,6 +31890,12 @@ PrefabInstance:
 --- !u!4 &1944678877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1944678876}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1944678878 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1944678876}
   m_PrefabAsset: {fileID: 0}
@@ -31073,7 +32177,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1973991060}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -31081,6 +32231,12 @@ PrefabInstance:
 --- !u!4 &1973991059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1973991058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1973991060 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1973991058}
   m_PrefabAsset: {fileID: 0}
@@ -31200,7 +32356,7 @@ PrefabInstance:
     - target: {fileID: 21237717963092729, guid: 502b1ba131b5ce44ca857f59d01b42ba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 21237717963092729, guid: 502b1ba131b5ce44ca857f59d01b42ba,
         type: 3}
@@ -32465,7 +33621,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: far clip plane
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Render
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FilmRoll, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2050458804}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Camera, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6419640143489356066, guid: 920d9296ab906a444881940420b02dbf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -32473,6 +33675,12 @@ PrefabInstance:
 --- !u!4 &2050458803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 2050458802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &2050458804 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 2050458802}
   m_PrefabAsset: {fileID: 0}
@@ -32785,7 +33993,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2067919131
 GameObject:
@@ -33814,7 +35022,7 @@ PrefabInstance:
     - target: {fileID: 2937353581171947634, guid: 29301283878d55341a1be1e4423d71d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2937353581171947634, guid: 29301283878d55341a1be1e4423d71d9,
         type: 3}
@@ -33903,7 +35111,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
         type: 3}
+      propertyPath: onHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
+        type: 3}
       propertyPath: onHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4142079347719150366}
+    - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
+        type: 3}
+      propertyPath: onHit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 4142079347719150366}
     - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
@@ -33913,7 +35131,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
         type: 3}
+      propertyPath: onHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
+        type: 3}
       propertyPath: onHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetPicTaken
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
+        type: 3}
+      propertyPath: onHit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetPicTaken
       objectReference: {fileID: 0}
     - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
@@ -33923,7 +35151,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
         type: 3}
+      propertyPath: onHit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PlayerAnimationController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
+        type: 3}
       propertyPath: onHit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596295495420204145, guid: 29301283878d55341a1be1e4423d71d9,
+        type: 3}
+      propertyPath: onHit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
