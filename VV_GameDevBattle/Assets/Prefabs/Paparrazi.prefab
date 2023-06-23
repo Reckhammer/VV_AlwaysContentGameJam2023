@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79d56a8e5a6584949bbc081e8c2bf64e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  delay: 3
   onTakePicture:
     m_PersistentCalls:
       m_Calls:

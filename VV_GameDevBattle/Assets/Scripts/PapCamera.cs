@@ -23,7 +23,7 @@ public class PapCamera : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player In Range");
+            //Debug.Log("Player In Range");
             onPlayerInRange?.Invoke();
             StartCoroutine(TakePicture(other.transform));
             target = other.transform;
@@ -34,7 +34,7 @@ public class PapCamera : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player Out of Range");
+            //Debug.Log("Player Out of Range");
             target = null;
             onPlayerExitRange?.Invoke();
         }

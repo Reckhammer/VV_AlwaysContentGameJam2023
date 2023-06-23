@@ -8,13 +8,13 @@ public class PapAnimationController : MonoBehaviour
 
     public void SetPlayerInRange(bool inRange)
     {
-        Debug.Log($"Player In Range {inRange} Animation Play");
+        //Debug.Log($"Player In Range {inRange} Animation Play");
         animator.SetBool("inRange", inRange);
     }
 
     public void SetTakePicture()
     {
-        Debug.Log("Take Pic Animation Play");
+        //Debug.Log("Take Pic Animation Play");
         animator.SetTrigger("TakePic");
     }
 
