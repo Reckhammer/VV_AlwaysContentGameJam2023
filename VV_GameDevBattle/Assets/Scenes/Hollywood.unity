@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.008848145, g: 0.0129934605, b: 0.020162378, a: 1}
+  m_IndirectSpecularColor: {r: 0.008848124, g: 0.012993472, b: 0.0201623, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5924,7 +5924,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 280815617}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5939,12 +5939,6 @@ PrefabInstance:
 --- !u!4 &280815616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 280815615}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &280815617 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 280815615}
   m_PrefabAsset: {fileID: 0}
@@ -9463,6 +9457,11 @@ PrefabInstance:
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1208683027}
+    - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
+        type: 3}
+      propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1173951455}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9945,7 +9944,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 509690319}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -9960,12 +9959,6 @@ PrefabInstance:
 --- !u!4 &509690318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 509690317}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &509690319 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 509690317}
   m_PrefabAsset: {fileID: 0}
@@ -11316,7 +11309,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 566637331}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -11331,12 +11324,6 @@ PrefabInstance:
 --- !u!4 &566637330 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 566637329}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &566637331 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 566637329}
   m_PrefabAsset: {fileID: 0}
@@ -12833,7 +12820,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 666806081}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -12848,12 +12835,6 @@ PrefabInstance:
 --- !u!4 &666806080 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 666806079}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &666806081 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 666806079}
   m_PrefabAsset: {fileID: 0}
@@ -13384,7 +13365,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 685970343}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -13399,12 +13380,6 @@ PrefabInstance:
 --- !u!4 &685970342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 685970341}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &685970343 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 685970341}
   m_PrefabAsset: {fileID: 0}
@@ -18337,7 +18312,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1053946703}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -18352,12 +18327,6 @@ PrefabInstance:
 --- !u!4 &1053946702 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1053946701}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1053946703 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1053946701}
   m_PrefabAsset: {fileID: 0}
@@ -19351,7 +19320,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1120247436}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -19366,12 +19335,6 @@ PrefabInstance:
 --- !u!4 &1120247435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1120247434}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1120247436 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1120247434}
   m_PrefabAsset: {fileID: 0}
@@ -19994,6 +19957,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156220251}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!20 &1173951455 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7271646070301301687, guid: 29301283878d55341a1be1e4423d71d9,
+    type: 3}
+  m_PrefabInstance: {fileID: 4142079347719150365}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1176690130
 GameObject:
   m_ObjectHideFlags: 0
@@ -20311,7 +20280,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1188318409}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -20326,12 +20295,6 @@ PrefabInstance:
 --- !u!4 &1188318408 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1188318407}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1188318409 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1188318407}
   m_PrefabAsset: {fileID: 0}
@@ -22241,7 +22204,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1311855221}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -22256,12 +22219,6 @@ PrefabInstance:
 --- !u!4 &1311855220 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1311855219}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1311855221 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1311855219}
   m_PrefabAsset: {fileID: 0}
@@ -22413,7 +22370,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1318596767}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -22428,12 +22385,6 @@ PrefabInstance:
 --- !u!4 &1318596766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1318596765}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1318596767 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1318596765}
   m_PrefabAsset: {fileID: 0}
@@ -25575,7 +25526,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1535221931}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -25590,12 +25541,6 @@ PrefabInstance:
 --- !u!4 &1535221930 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1535221929}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1535221931 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1535221929}
   m_PrefabAsset: {fileID: 0}
@@ -25916,7 +25861,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1569515821}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -25931,12 +25876,6 @@ PrefabInstance:
 --- !u!4 &1569515820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1569515819}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1569515821 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1569515819}
   m_PrefabAsset: {fileID: 0}
@@ -26825,7 +26764,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1633593948}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -26840,12 +26779,6 @@ PrefabInstance:
 --- !u!4 &1633593947 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1633593946}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1633593948 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1633593946}
   m_PrefabAsset: {fileID: 0}
@@ -28669,7 +28602,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1737636167}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -28684,12 +28617,6 @@ PrefabInstance:
 --- !u!4 &1737636166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1737636165}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1737636167 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1737636165}
   m_PrefabAsset: {fileID: 0}
@@ -29300,7 +29227,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1777481443}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -29315,12 +29242,6 @@ PrefabInstance:
 --- !u!4 &1777481442 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1777481441}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1777481443 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1777481441}
   m_PrefabAsset: {fileID: 0}
@@ -29851,7 +29772,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1815361581}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -29866,12 +29787,6 @@ PrefabInstance:
 --- !u!4 &1815361580 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1815361579}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1815361581 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1815361579}
   m_PrefabAsset: {fileID: 0}
@@ -31828,7 +31743,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1944678878}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -31843,12 +31758,6 @@ PrefabInstance:
 --- !u!4 &1944678877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1944678876}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1944678878 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1944678876}
   m_PrefabAsset: {fileID: 0}
@@ -32169,7 +32078,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1973991060}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -32184,12 +32093,6 @@ PrefabInstance:
 --- !u!4 &1973991059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1973991058}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1973991060 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 1973991058}
   m_PrefabAsset: {fileID: 0}
@@ -33568,7 +33471,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 2050458804}
+      objectReference: {fileID: 1173951455}
     - target: {fileID: 8871304022557579836, guid: 920d9296ab906a444881940420b02dbf,
         type: 3}
       propertyPath: onTakePicture.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -33583,12 +33486,6 @@ PrefabInstance:
 --- !u!4 &2050458803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6757562202689576774, guid: 920d9296ab906a444881940420b02dbf,
-    type: 3}
-  m_PrefabInstance: {fileID: 2050458802}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &2050458804 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7137324020001649717, guid: 920d9296ab906a444881940420b02dbf,
     type: 3}
   m_PrefabInstance: {fileID: 2050458802}
   m_PrefabAsset: {fileID: 0}
