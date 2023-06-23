@@ -7,6 +7,8 @@ public class PapCamera : MonoBehaviour
 {
     public float delay = 1f;
     public UnityEvent onTakePicture;
+    public UnityEvent onPlayerInRange;
+    public UnityEvent onPlayerExitRange;
     private Transform target;
 
     private void Update()
@@ -21,6 +23,8 @@ public class PapCamera : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("Player In Range");
+            onPlayerInRange?.Invoke();
             StartCoroutine(TakePicture(other.transform));
             target = other.transform;
         }
@@ -29,8 +33,10 @@ public class PapCamera : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
-        { 
+        {
+            Debug.Log("Player Out of Range");
             target = null;
+            onPlayerExitRange?.Invoke();
         }
     }
 
