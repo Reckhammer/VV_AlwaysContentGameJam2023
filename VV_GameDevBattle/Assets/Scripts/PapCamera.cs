@@ -44,6 +44,7 @@ public class PapCamera : MonoBehaviour
     private IEnumerator TakePicture(Transform subject)
     {
         yield return new WaitForSeconds(delay);
+        if (!enabled) yield return null;
         subject.SendMessage("OnHit", SendMessageOptions.RequireReceiver);
         onTakePicture.Invoke();
         yield return null;
