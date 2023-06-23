@@ -6,7 +6,7 @@ using UnityEditor;
 public class BuildingReplacer : EditorWindow
 {
     Transform buildings;
-    GameObject[] prefabs;
+    GameObject[] prefabs = new GameObject[0];
 
     [MenuItem("Window/" + nameof(BuildingReplacer))]
     private static void Init()
