@@ -28,7 +28,7 @@ public class Bat : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            other.transform.root.BroadcastMessage("OnHit", SendMessageOptions.DontRequireReceiver);
+            other.SendMessage("OnHit", SendMessageOptions.DontRequireReceiver);
         }
     }
 
