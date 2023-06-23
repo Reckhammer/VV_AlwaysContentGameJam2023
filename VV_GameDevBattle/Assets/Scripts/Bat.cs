@@ -28,6 +28,7 @@ public class Bat : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
+            Debug.Log("Bat has touched an Enemy");
             other.SendMessage("OnHit", SendMessageOptions.DontRequireReceiver);
         }
     }
